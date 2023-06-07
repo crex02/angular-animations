@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OpenCloseComponent } from './open-close/open-close.component';
 import { SimoAnimationComponent } from './simo-animation/simo-animation.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OpenCloseComponent,
-    SimoAnimationComponent
+    SimoAnimationComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
